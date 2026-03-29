@@ -2,23 +2,24 @@
 __pycache__/
 *.pyc
 
-# Local DB and artifacts
+# Local environments and editor
+.venv/
+.vscode/
+
+# Local runtime artifacts
+logs/
 data/
 
-# Secrets
+# Secrets (keep only template)
 .env
 .env.*
-secrets/tushare.env
-secrets/*.env
-secrets/*.secret
-.venv
-data/info_driven_bars/a_share_info_driven.db
-data/daily_bars/a_share_daily.db
+secrets/*
+!secrets/tushare.env.example
+
+# Local files
+test.py
+summery/*.epub
+
 # OS
 Thumbs.db
 .DS_Store
-logs/
-.vscode/
-.venv
-summery/*.epub
-
