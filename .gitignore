@@ -1,0 +1,24 @@
+﻿# Python
+__pycache__/
+*.pyc
+
+# Local DB and artifacts
+data/
+
+# Secrets
+.env
+.env.*
+secrets/tushare.env
+secrets/*.env
+secrets/*.secret
+.venv
+data/info_driven_bars/a_share_info_driven.db
+data/daily_bars/a_share_daily.db
+# OS
+Thumbs.db
+.DS_Store
+logs/
+.vscode/
+.venv
+summery/*.epub
+
